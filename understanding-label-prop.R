@@ -20,6 +20,7 @@ y   <- data$Class[!is.na(data$Class)] # Vector of labels
 # Settings
 k <- 5 # number of neighbours
 
+# Source: https://github.com/jkrijthe/RSSL/blob/master/R/GRFClassifier.R
 
 # Pre-processing
 Xin <- rbind(X, X_u)
